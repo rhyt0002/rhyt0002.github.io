@@ -1,0 +1,33 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+header, footer{
+    background-color: azure;
+}
+.site-title{
+    color: red;
+}
+#my-image{
+    box-shadow: 0px 0px 2px 1px black;
+}
+article ul li:nth-child(odd){
+    background-color: bisque;
+}
+article ul li{
+    list-style: square;
+}
+nav ul li{
+    list-style: none;
+    border: none;
+    background-color: palegreen;
+    border: 2px solid black;
+    
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: brown;
+    border: 2px solid yellow;
+}
