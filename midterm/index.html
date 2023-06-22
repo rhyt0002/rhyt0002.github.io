@@ -1,12 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Midterm</title>
+    <title>Lone Starfish</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+    <div class="wrapper">
+        <!-- adding heading and img with navbar -->
+        <header>
+            <div class="container">
+                <h1>Lone Starfish</h1>
+            </div>
+            <img src="images/lone-starfish-wide.jpg" alt="starfish pic" id="img1">
+
+            <nav>
+                <ul>
+                    <li class="border"><a href="index.html">HOME</a></li>
+                    <li class="border"><a href="#life">STORY</a></li>
+                    <li><a href="#form">CONTACT</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <main>
+            <!-- adding article -->
+
+            <article>
+                <h2 id="life">
+                    Life of a Starfish
+                </h2>
+                <img src="images/lone-starfish.jpg" alt="Starfish" id="img2">
+                <p class="para">
+                    Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper
+                    catalufa
+                    silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish
+                    Australian
+                    prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark
+                    dwarf
+                    loach
+                    beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby
+                    long-finned
+                    char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish.
+                    Australian
+                    herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish;
+                    longfin
+                    smelt;
+                    leopard danio dragonfish," Lost River sucker, mojarra. Modoc sucker northern clingfish mudsucker
+                    x-ray
+                    tetra
+                    squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish
+                    pearleye
+                    mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. Torpedo; leopard danio minnow
+                    leatherjacket hardhead catfish wobbegong trench squeaker crestfish, halibut glowlight danio sailback
+                    scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet
+                    catfish
+                    flabby whalefish. Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl danio
+                    cownose
+                    ray.
+                    Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray
+                    lightfish
+                    Australian lungfish searobin false trevally, dottyback.
+                </p>
+                <!-- adding facts -->
+                <h3>Facts About Starfish</h3>
+                <ul>
+                    <li>
+                        Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.
+                    </li>
+                    <li>
+                        Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.
+                    </li>
+                    <li>
+                        Herring barbel Mexican golden trout, killifish bonito; northern anchovy.
+                    </li>
+                    <li>
+                        Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.
+                    </li>
+                </ul>
+                <h3 id="form">
+                    Contact to learn more
+                </h3>
+                <!-- adding form to be submitted -->
+                <form action="index.html" method="get" id="contact">
+                    <div id="Name">
+                        <label for="fname">Your name</label>
+                        <input id="fname" type="text" name="firstname" />
+                    </div>
+                    <div>
+                        <label for="email">Your Email</label>
+                        <input id="email" type="text" name="Your Email" />
+                    </div>
+                    <div>
+                        <label for="comments">Your Message</label>
+                        <textarea name="comments" id="comments" cols="70" rows="5"></textarea>
+                    </div>
+                    <div>
+                        <h5>Would you like to visit the starfish?</h5>
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="yes" name="reply" />
+                        <label for="no">No</label>
+                        <input type="radio" id="no" name="reply" />
+                        <label for="Maybe">Maybe</label>
+                        <input type="radio" id="Maybe" name="reply" />
+                    </div>
+                    <button id="btn" type="submit">SEND</button>
+                </form>
+
+
+
+            </article>
+        </main>
+        <footer>
+            <p>&copy;Lone Starfish.</p>
+        </footer>
+    </div>
 </body>
+
 </html>
