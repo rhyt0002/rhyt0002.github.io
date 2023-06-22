@@ -20,14 +20,18 @@ article ul li{
 nav ul li{
     list-style: none;
     border: none;
-    background-color: palegreen;
-    border: 2px solid black;
+    
+    
     
 }
 nav ul li a{
     text-decoration: none;
+    background-color: palegreen;
+    border: 2px solid black;
+    
+
 }
-nav ul li:hover{
+nav ul li a:hover{
     background-color: brown;
     border: 2px solid yellow;
 }
